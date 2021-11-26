@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form name="Formulario" method="post" action=""></form>
+
+    <fieldset class="datos-p">
+        <legend>Datos personales</legend>
+            <label for="nombre">Nombre</label>
+            <input type="text" name="nombre" id="" placeholder="Escribe tu nombre">
+
+            <label for="">Edad</label>
+            <select name="edad" id="">
+                <option value="8">8</option>
+                <option value="9">9</option>
+                <option value="10">10</option>
+                <option value="11">11</option>
+                <option value="12">12</option>
+                <option value="13">13</option>
+                <option value="14">14</option>
+                <option value="15">15</option>
+            </select>
+    </fieldset>
+    <fieldset class="gustos">
+        <legend>Gustos</legend>
+        <input type="checkbox" name="Deportes" id="">Deportes
+        <input type="checkbox" name="Libros" id="">Libros
+        <input type="checkbox" name="Videojuegos" id="">Videojuegos
+        <input type="checkbox" name="Música" id="">Música
+        <div class="otro-gusto">
+
+            <script type="text/javascript">
+                function showContent() {
+                    element = document.getElementById("content");
+                    check = document.getElementById("check");
+                    if (check.checked) {
+                        element.style.display='block';
+                    }
+                    else {
+                        element.style.display='none';
+                    }
+                }
+            </script>
+
+            <input type="checkbox" name="check" id="check" value="1" onchange="javascript:showContent()"> Otro
+            <input type="text" name="Otro" id="content" style="display: none;">
+        </div>
+        <div>
+            <label for="">Color favorito</label>
+            <script>
+                switch (color) {
+                    case value:
+                        
+                        break;
+                
+                    default:
+                        break;
+                }
+            </script>
+            <input type="color" name="color" id="">
+        </div>
+    </fieldset>
+    <fieldset>
+        <legend>Qué regalo te gustaría</legend>
+        <input type="text" name="regalo" placeholder="Ex. Una pelota, un viaje, etc. Lo que quieras">
+    </fieldset>
+    <div class="compartir">
+    <legend>¿Quieres una copia del formulario?</legend>
+    <label for="">Email</label>
+    <input type="email" name="email" id="">
+    </div>
+-----------------------------------------------------------
+<br>
+    <input id="color" type="checkbox" onclick="myFunction()">Otro
+
+<script>
+function myFunction() {
+  var checkbox;
+  var Color = document.getElementById("myInput").value;
+
+  switch(fruits) {
+    case "Banana":
+      text = "Banana is good!";
+    break;
+    case "Orange":
+    text = "I am not a fan of orange.";
+    break;
+    case "Apple":
+    text = "How you like them apples?";
+    break;
+    default:
+    text = "I have never heard of that fruit...";
+  }
+  document.getElementById("demo").innerHTML = text;
+}
+</script>
+
+</body>
+</html>

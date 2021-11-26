@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Reserva espectacle Sonamar</title>
+    <style>
+        body{
+            text-align: center;
+            padding: 20px;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        image{
+            width: 150px;
+        }
+        .contenedor{
+            margin-left: 20%;
+            margin-right: 20%;
+            border: 1px solid black;
+        }
+        main{
+            text-align: left;
+            padding: 10px;
+        }
+        h1{
+            font-size: 22px;
+            color: #dc0a16;
+            margin-bottom:30px;
+        }
+        h2{
+            font-size: 18px;
+            color: #dc0a16;
+            margin-left: 15px;
+        }
+        h4{
+            color: #dc0a16;
+        }
+       .box{
+           background-color: #e5e5e5;
+       }
+       label{
+           display: inline-block;
+           width: 200px;
+       }
+       .detalles{
+           border-top: black 1px solid;
+           border-bottom: black 1px solid;
+           padding: 15px;
+       }
+       .detalles small{
+           display: inline-block;
+           margin-top: 10px;
+           color:blue;
+           font-weight: bold;
+       }
+       .artículos{
+           display: flex;
+           justify-content: space-between;
+           padding: 15px;
+       }
+       .artículos img{
+           width: 100px;
+       }
+       .gastos-totales{
+           text-align: right;
+       }
+       .gastos-totales label{
+           display: inline-block;
+           width: 300px;
+           text-align: left;
+           color: #dc0a16;
+           font-family: Geneva, 'Segoe UI', Tahoma, Verdana, sans-serif;
+       }
+       .gastos-totales span{
+           display: inline-block;
+           width: 50px;
+           font-weight: bold;
+       }
+       .gastos-totales p{
+           margin-top: 20px;
+       }
+    </style>
+</head>
+<body>
+    <div class="contenedor">
+        <img src="Img/sonamar.jpg" alt="Logo House of Sonamar" width="400">
+        
+        <main>
+            <h1>CONFIRMACIÓN DE RESERVA</h1>
+            <h2>INFORMACIÓN DE LA RESERVA</h2>
+            <div class="box">
+                <p style="margin-bottom: 15px;"><label>Referencia</label>1234566</p>
+                <p><label>Fecha:</label> 12/09/2021 (12:30)</p>
+            </div>
+            <h2>DETALLES DEL CLIENTE</h2>
+            <div class="box">
+                <p style="margin-bottom: 15px;"><label>Nombre:</label>Mr Juan Pérez</p>
+                <p style="margin-bottom: 15px;"><label>Email:</label>jua@gmail.com</p>
+                <p><label>Teléfono</label><label style="width: 50%; background-color:#fff;"> 678989876</label></p>
+            </div>
+            <h1>DETALLES DE SU RESERVA</h1>
+            <section class="detalles">
+                <p>Reserva 1</p>
+                <small>Exhibit 1, Son Amar septiembre ...</small>
+                <div class="artículos">
+                    <div>
+                      <img src="Img/code-QR.png" alt="código QR">
+                    </div>
+                    <div>
+                        <h4>Cantidad</h4>
+                        <p>2</p>
+                    </div>
+                  <div>
+                    <h4>Artículo</h4>
+                    <p>VIP</p>
+                   </div>
+                  <div>
+                    <h4>Precio</h4>
+                    <p>95.00€</p>
+                  </div>
+                  <div>
+                    <h4>Subtotal</h4>
+                    <p>190.00€</p>
+                  </div>
+                </div>
+            </section>
+
+            <section class="gastos-totales">
+                <p><label>Gastos de gestión:</label><span>4€</span></p>
+                <p><label>Reserva total:</label><span>194€</span></p>
+            </section>
+        </main>
+    </div>
+
+
+</body>
+</html>

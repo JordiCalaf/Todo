@@ -1,0 +1,106 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    background-image: url('../img/fons.jpg');
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    font-size: 16px;
+}
+
+main{
+    width: 800px;
+    margin: auto;
+    padding-left: 10px;
+    background-image: url('../img/fons_pelis.png');
+}
+
+#detall{
+    text-align: left;
+    padding-left: 40px;
+}
+
+h1{
+    font: bold italic 1.4rem Arial;
+    color: white;
+    background: url('../img/fons_titol.png');
+    padding: 10px 0px 30px 40px;
+    background-color: #083256;
+    text-align: left;
+}
+
+article{
+    text-align: left;
+    background-color: white;
+    padding: 15px;
+    margin: 15px;
+    border-radius: 10px;
+    display: flex;
+}
+
+article .columna-1 h2{
+    padding: 0;
+    padding-top: 10px;
+    margin: 3px;
+    font: bold 1.2rem arial;
+    color: #083256;
+}
+
+article p{
+    padding-top: 10px;
+    border-top: 1px;
+    font: normal 0.8rem arial;
+    color: #083256;
+}
+
+article a{
+    color: blue;
+}
+
+article a:hover{
+    color: orange;
+}
+
+article .columna-1{
+    padding-right: 10px;
+}
+
+article .columna-2{
+    overflow: hidden;
+}
+
+dl{
+    display: flex;
+    flex-flow: row wrap;
+    font: normal 0.9rem arial;
+}
+
+dt{
+    flex-basis: 20%;
+    padding: 10px 4px 2px 4px;
+    text-align: left;
+    font-weight: bold;
+}
+
+dd{
+    flex-basis: 80%;
+    margin: 0;
+    padding: 10px 4px 2px 4px;
+}
+
+.pagina-web{
+    border: solid 1px orange;
+    background-color: #fffabf;
+    padding: 8px;
+    text-align: center;
+    margin-top: 10px;
+}
+
+footer{
+    background-color: #083256;
+    text-align: center;
+    color: white;
+    margin-left: 20px;
+}

@@ -1,0 +1,79 @@
+/**   *{
+    box-sizing: border-box;
+}
+**/
+
+
+body{
+    background-image: url('../img/fons.jpg');
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    font-size: 16px;
+}
+
+main{
+    width: 680px;
+    margin: auto;
+
+    padding-left: 10px;
+    background-image: url('../img/fons.jpg');
+}
+
+#list-films{
+    text-align: left;
+    padding-left: 40px;
+}
+
+h1{
+    font: bold italic 1.4rem Arial;
+    color: #ffffff;
+    background: url('../img/palomita.png') no-repeat 7px 7px;
+    padding: 10px 0px 30px 40px;
+    background-color: #083256;
+    text-align: left;
+}
+
+.pelicula{
+    height: 155px;
+    text-align: left;
+    background-color: #ffffff;
+    padding: 5px;
+    margin: 15px;
+    display: flex;
+    border-radius: 5px;
+}
+
+.pelicula .img{
+    width: 112px;
+}
+
+.pelicula div{
+    margin-left: 10px;
+}
+
+.pelicula h2{
+    padding: 0;
+    padding-top: 10px;
+    margin: 3px;
+    font: bold 1.2rem arial;
+    color: #083256;
+}
+
+.pelicula p{
+    padding: 0ch;
+    margin: 3px;
+    font: normal 1rem Arial;
+    color: #083256;
+    padding-bottom: 4px;
+    line-height: 1.5;
+}
+
+.pelicula a{
+    color: blue;
+}
+
+.pelicula a:hover{
+    color: orange;
+}

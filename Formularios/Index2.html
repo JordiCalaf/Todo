@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+
+    <form name="datos" method="post" action="http.//www.iesemilidarder.com">
+        <fieldset>
+            <legend>Datos Personales</legend>
+            <div>
+                <label for="nombre">Nombre</label>
+                <input type="text" name="nombre" size="30" id="" value="" placeholder="Escribe tu nombre" readonly>
+            </div>
+
+            <div>
+                <label for="">Tratamiento</label>
+                <input type="radio" name="trato">Sr.
+                <input type="radio" name="trato">Sta.
+            </div>
+            <div>
+                <label for="">Aficiones</label>
+                <input type="checkbox" name="aficion-libros">Libros
+                <input type="checkbox" name="aficion-games" checked>Gamer
+                <input type="checkbox" name="aficion-gym">Deporte
+            </div>
+            <div>
+                <label for="">País:</label>
+                <select name="país" id="">
+                    <option value="ES">España</option>
+                    <option value="POR" selected >Portugal</option>
+                    <option value="IT">Italia</option>
+                </select>
+            </div>
+            <div>
+                <label for="">Observaciones</label>
+                <textarea name="observ" id="" cols="30" rows="10"></textarea>
+            </div>
+        </fieldset>
+        <fieldset>
+            <input type="submit" name="enviar" value="Enviar datos">
+        </fieldset>
+        <fieldset>
+            <legend>Datos de usuario</legend>
+            <label for="">Username</label>
+            <input type="text" name="username">
+
+            <label for="">Password</label>
+            <input type="password" name="password">
+
+            <div>
+                <label for="">Edad</label>
+                <input type="number" name="edad">
+            </div>
+
+            <div>
+                <label for="">Email</label>
+                <input type="email" name="email-user" id="">
+            </div>
+        </fieldset>
+        <fieldset>
+            <input type="submit" name="enviar" value="Enviar">
+            <button type="button">Enviar más y mejor</button>
+            <button type="reset">Borrar</button>
+        </fieldset>
+    </form>
+    
+</body>
+</html>

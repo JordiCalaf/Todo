@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .caja{
+            width: 100px;
+            height: 100px;
+            background-color: red;
+            border: 1px solid black;
+            border-radius: 5px;
+            /* transform: translate(50px, 100px); */
+            /* transform: rotate(30deg); */
+            /* transform: scale(1,1.2); */
+            /* transform: scaleX(2) scaleY(3); */
+            /* transform: skew(10deg, 20deg);  también separable en skewY y skewX*/
+            /* transform: matrix(1,-0,3,0,1,0,0); */
+        }
+
+        .item-menu{
+            width: 100px;
+            line-height: 40px;
+            height: 40px;
+            text-align: center;
+            color: white;
+            background-color: green;
+            font-weight: bolder;
+            border: 1px solid black;
+
+            position: relative;
+        }
+
+        .submenu{
+            position: absolute;
+            top: 0;
+            left: 0;
+            z-index: 10;
+            border: 1px solid #000;
+            color: black;
+            background-color: beige;
+            width: 200px;
+            display: none;
+        }
+
+        .item-menu:hover .submenu{
+            display: block;
+        }
+        
+        ul, li{
+            padding:0;
+            margin: 0;
+        }
+
+    </style>
+</head>
+
+<body>
+    <div class="caja">
+        Datos
+    </div>
+    <div class="item-menu">
+        opciones
+        <div class="submenu">
+            <ul>
+                <li>opción1</li>
+                <li>opción2</li>
+                <li>opción3</li>
+            </ul>
+        </div>
+    </div>
+</body>
+</html>

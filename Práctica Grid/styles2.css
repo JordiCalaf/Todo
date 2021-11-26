@@ -1,0 +1,17 @@
+.container {
+    display: grid;
+    grid-template-columns: 20vh 20vh 20vh 20vh 20vh ;
+    grid-template-rows: 20vh 20vh 20vh 20vh;
+    grid-gap: 10px;
+    background-color:white;
+    padding: 10px;
+    border: solid 1px black;
+    grid-template-areas:
+    "header header header header header"
+    "promo1 main main main main"
+    "promo2 main main main main"
+    "footer footer footer footer footer"   
+    ;
+}
+
+/*no sé qué coño falla*/

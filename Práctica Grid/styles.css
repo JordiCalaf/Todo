@@ -1,0 +1,78 @@
+.grid-container {
+    display: grid;
+    grid-template-columns: auto auto;
+    grid-gap: 10px;
+    background-color: #2196F3;
+    padding: 10px;
+  }
+  
+  .grid-container > div {
+    background-color: rgba(255, 255, 255, 0.8);
+    text-align: center;
+    padding: 20px 0;
+    font-size: 30px;
+  }
+  
+  .itemheader {
+    grid-column-start: 1;
+    grid-column-end: all;
+  }
+  
+  .itemfooter {
+    grid-column-start: 1;
+    grid-column-end: all;
+  }
+  
+  .itemlateral{
+      grid-row-start: 2;
+      grid-row-end: 6;
+  }
+
+  .grid-3 {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    grid-template-rows: auto auto auto auto auto;
+    grid-gap: 10px;
+    background-color: #2196F3;
+    padding: 10px;
+  }
+  .grid-3 > div {
+    background-color: rgba(255, 255, 255, 0.8);
+    text-align: center;
+    padding: 20px 0;
+    font-size: 30px;
+  }
+
+  .itemlogo{
+      grid-column-start: 1;
+  }
+
+  .itemmenu{
+    grid-column-start: 3;
+    grid-column-end: 5;
+  }
+
+  .itempost{
+    grid-column-start: 1;
+    grid-column-end: 4;
+    grid-row-start: 2;
+    grid-row-end: 5;
+  }
+
+  .itemside{
+    grid-column-start: 4;
+    grid-column-end: 5;
+    grid-row-start: 2;
+    grid-row-end: 5;
+  }
+
+  .item-footer{
+    grid-column-start: 1;
+    grid-column-end: all;
+  }
+
+  /* hay que modificar los autos del template de grid-3 para que
+vayan acordes a la longitud de post y side requeridas, hay que
+reducir los autos y darle un tamaño apropiado, luego ajustaremos
+las cuadrículas en los row-column start-end :) */
+  
